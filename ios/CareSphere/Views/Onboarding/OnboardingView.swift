@@ -1,0 +1,575 @@
+import CareActivityKit
+import SwiftUI
+#if os(iOS)
+import ContactsUI
+
+struct ContactPicker: UIViewControllerRepresentable {
+    var onPick: (String, String) -> Void
+    @Environment(\.dismiss) private var dismiss
+
+    func makeUIViewController(context: Context) -> CNContactPickerViewController {
+        let picker = CNContactPickerViewController()
+        picker.delegate = context.coordinator
+        picker.displayedPropertyKeys = [CNContactPhoneNumbersKey]
+        return picker
+    }
+
+    func updateUIViewController(_ uiViewController: CNContactPickerViewController, context: Context) {}
+
+    func makeCoordinator() -> Coordinator { Coordinator(self) }
+
+    final class Coordinator: NSObject, CNContactPickerDelegate {
+        let parent: ContactPicker
+        init(_ parent: ContactPicker) { self.parent = parent }
+
+        func contactPicker(_ picker: CNContactPickerViewController, didSelect contact: CNContact) {
+            let name = [contact.givenName, contact.familyName].filter { !$0.isEmpty }.joined(separator: " ")
+            let phone = contact.phoneNumbers.first?.value.stringValue ?? ""
+            parent.onPick(name, phone)
+            parent.dismiss()
+        }
+
+        func contactPickerDidCancel(_ picker: CNContactPickerViewController) {
+            parent.dismiss()
+        }
+    }
+}
+#endif
+
+struct OnboardingView: View {
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+    @EnvironmentObject private var store: CareStore
+    @EnvironmentObject private var healthKit: HealthKitService
+    @EnvironmentObject private var notifications: NotificationService
+
+    @State private var step: Step = .welcome
+    @State private var includeBirthDate = false
+    @State private var birthDate: Date = Calendar.current.date(byAdding: .year, value: -70, to: Date())!
+    @State private var careMode: CareMode = .both
+    @State private var meds: [Medication] = []
+    @State private var medicationScheduleConfirmed = false
+    @State private var routines: [Routine] = []
+    @State private var emergencyName = ""
+    @State private var emergencyPhone = ""
+    @State private var wantsBiometrics = false
+    @State private var contactPickerShown = false
+
+    enum Step: Int, CaseIterable {
+        case welcome, profile, focus, medications, routines, contact, security, permissions, done
+    }
+
+    private var progress: Double {
+        Double(step.rawValue) / Double(Step.allCases.count - 1)
+    }
+
+    var body: some View {
+        VStack(spacing: 0) {
+            InterfaceLanguagePicker(compact: true).padding(.horizontal)
+            VStack(spacing: 8) {
+                HStack {
+                    Text(AppLanguage.text("CareSphere Setup"))
+                        .font(.caption.weight(.heavy))
+                        .foregroundStyle(Color.emeraldText)
+                    Spacer()
+                    Text(AppLanguage.format("Step {0} of {1}", [String(step.rawValue + 1), String(Step.allCases.count)]))
+                        .font(.caption2.weight(.semibold))
+                        .foregroundStyle(.secondary)
+                }
+                ProgressView(value: progress)
+                    .tint(.emerald)
+            }
+            .padding(.horizontal, 24)
+            .padding(.top, 12)
+
+            ScrollViewReader { proxy in
+            ScrollView {
+            Group {
+                switch step {
+                case .welcome: welcomePage
+                case .profile: profilePage
+                case .focus: focusPage
+                case .medications: medicationsPage
+                case .routines: routinesPage
+                case .contact: contactPage
+                case .security: securityPage
+                case .permissions: permissionsPage
+                case .done: donePage
+                }
+            }
+            .id("setup-content")
+            }
+            .onChange(of: step) { _ in proxy.scrollTo("setup-content", anchor: .top) }
+            }
+
+            Spacer(minLength: 0)
+
+            HStack(spacing: 12) {
+                if step != .welcome {
+                    Button {
+                        step = Step(rawValue: step.rawValue - 1) ?? .welcome
+                    } label: {
+                        Image(systemName: "chevron.left")
+                            .font(.subheadline.weight(.black))
+                            .padding(14)
+                            .background(Color.cardInner, in: Circle())
+                    }
+                    .buttonStyle(.plain)
+                    .accessibilityLabel(AppLanguage.text("Previous setup step"))
+                }
+                Button {
+                    advance()
+                } label: {
+                    Label(step == .welcome ? "Get started" : step == .done ? "Enter CareSphere" : "Continue",
+                          systemImage: "chevron.right")
+                        .labelStyle(.titleAndIcon)
+                        .font(.subheadline.weight(.black))
+                        .frame(maxWidth: .infinity)
+                        .padding(.vertical, 15)
+                }
+                .buttonStyle(.borderedProminent)
+            }
+            .padding(24)
+        }
+        .background(backgroundGradient.ignoresSafeArea())
+        .onAppear {
+            if meds.isEmpty { meds = store.medications }
+            medicationScheduleConfirmed = store.medicationScheduleConfirmed
+            if routines.isEmpty { routines = store.routines }
+        }
+        #if os(iOS)
+        .sheet(isPresented: $contactPickerShown) {
+            ContactPicker { name, phone in
+                emergencyName = name
+                emergencyPhone = phone
+            }
+        }
+        #endif
+    }
+
+
+    private var welcomePage: some View {
+        VStack(spacing: 22) {
+            Spacer()
+            ZStack {
+                Circle().fill(Color.emerald.opacity(0.14)).frame(width: 150, height: 150)
+                Circle().fill(Color.emerald.opacity(0.12)).frame(width: 110, height: 110)
+                Text("💚").font(.system(size: 62))
+            }
+            VStack(spacing: 10) {
+                Text(AppLanguage.text("Welcome to CareSphere"))
+                    .font(.largeTitle.weight(.heavy))
+                    .multilineTextAlignment(.center)
+                InfoText(AppLanguage.text("A calm companion for independent living — wearable vitals, video coffee circles, medication reminders and optional sensory activities."))
+                    .font(.callout)
+                    .foregroundStyle(.secondary)
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal, 8)
+            }
+            LazyVGrid(columns: [GridItem(.adaptive(minimum: 110))], spacing: 14) {
+                featureBadge("waveform.path.ecg", "Live vitals")
+                featureBadge("video.fill", "Video circles")
+                featureBadge("pills.fill", "Reminders")
+                featureBadge("gamecontroller.fill", "Activities")
+            }
+            Button(AppLanguage.text("Explore first · set up later")) {
+                store.hasCompletedOnboarding = true
+            }
+            .buttonStyle(.bordered).controlSize(.large)
+            InfoText(AppLanguage.text("Activities work without an account, health permissions, or model downloads. Add your details later in Settings."))
+                .font(.footnote).foregroundStyle(.secondary).multilineTextAlignment(.center)
+            Spacer()
+            Spacer()
+        }
+        .padding(28)
+    }
+
+    private var profilePage: some View {
+        VStack(alignment: .leading, spacing: 22) {
+            pageHeader(AppLanguage.text("About you"), AppLanguage.text("Your profile is stored locally. Your display name is shared with Jitsi only if you join a video room."), systemImage: "person.crop.circle")
+            VStack(alignment: .leading, spacing: 8) {
+                Text(AppLanguage.text("Your name")).font(.caption.weight(.bold)).foregroundStyle(.secondary)
+                TextField(AppLanguage.text("e.g. Alex"), text: $store.displayName)
+                    .textFieldStyle(.roundedBorder)
+            }
+            VStack(alignment: .leading, spacing: 8) {
+                Toggle(AppLanguage.text("Add date of birth (optional)"), isOn: $includeBirthDate)
+                if includeBirthDate {
+                    DatePicker("Date of birth", selection: $birthDate, in: ...Date(), displayedComponents: .date)
+                        .datePickerStyle(.compact)
+                }
+                InfoText(AppLanguage.text("Text size follows your iPhone settings. You choose the activity and pace; age does not automatically change them."))
+                    .font(.footnote).foregroundStyle(.secondary)
+            }
+        }
+        .padding(28)
+    }
+
+    private var focusPage: some View {
+        VStack(alignment: .leading, spacing: 22) {
+            pageHeader(AppLanguage.text("What brings you here?"), AppLanguage.text("Choose a profile preference. All activities remain available; this is not a diagnosis or treatment plan."), systemImage: "switch.2")
+            VStack(spacing: 12) {
+                ForEach(CareMode.allCases) { mode in
+                    Button {
+                        careMode = mode
+                    } label: {
+                        HStack(spacing: 14) {
+                            Text(mode.emoji).font(.title2)
+                            VStack(alignment: .leading, spacing: 2) {
+                                Text(mode.label).font(.headline).foregroundStyle(.primary)
+                                Text(careModeBlurb(mode)).font(.caption).foregroundStyle(.secondary)
+                            }
+                            Spacer()
+                            Image(systemName: careMode == mode ? "checkmark.circle.fill" : "circle")
+                                .font(.title3)
+                                .foregroundStyle(careMode == mode ? Color.emeraldText : Color.secondary)
+                        }
+                        .padding(16)
+                        .background(Color.cardInner, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 18, style: .continuous)
+                                .strokeBorder(careMode == mode ? Color.emerald.opacity(0.6) : .clear, lineWidth: 2))
+                    }
+                    .buttonStyle(.plain)
+                }
+            }
+        }
+        .padding(28)
+    }
+
+    private func careModeBlurb(_ mode: CareMode) -> String {
+        switch mode {
+        case .senior: return "Routines, medication rhythms, isolation prevention"
+        case .autism: return "Sensory tools, predictability, emotion practice"
+        case .both: return "The full CareSphere experience"
+        }
+    }
+
+    private var medicationsPage: some View {
+        VStack(alignment: .leading, spacing: 18) {
+            pageHeader(AppLanguage.text("Your medications"), AppLanguage.text("Enter only a schedule confirmed by your care team or medication label. Reminders stay paused until you confirm every name and time."), systemImage: "pills.fill")
+            ScrollView {
+                VStack(spacing: 10) {
+                    ForEach($meds) { $med in
+                        VStack(alignment: .leading, spacing: 8) {
+                            HStack {
+                                TextField(AppLanguage.text("Medication name"), text: medicationNameBinding($med))
+                                    .textFieldStyle(.roundedBorder)
+                                DatePicker("", selection: timeBinding(med), displayedComponents: .hourAndMinute)
+                                    .labelsHidden()
+                                Button {
+                                    meds.removeAll { $0.id == med.id }
+                                    medicationScheduleConfirmed = false
+                                } label: {
+                                    Image(systemName: "minus.circle.fill")
+                                        .foregroundStyle(.pink)
+                                }
+                                .buttonStyle(.plain)
+                            }
+                            TextField(AppLanguage.text("Purpose (optional)"), text: medicationPurposeBinding($med))
+                                .textFieldStyle(.roundedBorder)
+                                .font(.caption)
+                        }
+                        .padding(12)
+                        .background(Color.cardInner, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
+                    }
+                }
+            }
+            Button {
+                meds.append(Medication(name: "", purpose: "", hour: 9, minute: 0))
+                medicationScheduleConfirmed = false
+            } label: {
+                Label(AppLanguage.text("Add medication"), systemImage: "plus.circle.fill")
+                    .font(.subheadline.weight(.bold))
+            }
+            .buttonStyle(.bordered)
+
+            if meds.contains(where: { !$0.name.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty }) {
+                Toggle(isOn: $medicationScheduleConfirmed) {
+                    Text(AppLanguage.text("I checked every name and reminder time against the medication label or care-team instructions."))
+                        .font(.caption)
+                }
+                .toggleStyle(.switch)
+            } else {
+                Text(AppLanguage.text("No medications entered. You can add a personal reminder schedule later in Settings and review each entry against your current instructions."))
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+            }
+            InfoText(AppLanguage.text("CareSphere does not prescribe, verify doses, or check interactions. You can edit this schedule in Settings; changes pause reminders until reviewed again."))
+                .font(.caption2)
+                .foregroundStyle(.secondary)
+        }
+        .padding(28)
+    }
+
+    private func medicationNameBinding(_ medication: Binding<Medication>) -> Binding<String> {
+        Binding(
+            get: { medication.wrappedValue.name },
+            set: { value in
+                guard medication.wrappedValue.name != value else { return }
+                medication.wrappedValue.name = value
+                medicationScheduleConfirmed = false
+            })
+    }
+
+    private func medicationPurposeBinding(_ medication: Binding<Medication>) -> Binding<String> {
+        Binding(
+            get: { medication.wrappedValue.purpose },
+            set: { value in
+                guard medication.wrappedValue.purpose != value else { return }
+                medication.wrappedValue.purpose = value
+                medicationScheduleConfirmed = false
+            })
+    }
+
+    private func timeBinding(_ med: Medication) -> Binding<Date> {
+        Binding<Date>(
+            get: { CareTime.date(hour: med.hour, minute: med.minute) },
+            set: { newDate in
+                if let idx = meds.firstIndex(where: { $0.id == med.id }) {
+                    let comps = CareTime.hourMinute(from: newDate)
+                    guard meds[idx].hour != comps.hour || meds[idx].minute != comps.minute else { return }
+                    meds[idx].hour = comps.hour
+                    meds[idx].minute = comps.minute
+                    medicationScheduleConfirmed = false
+                }
+            })
+    }
+
+    private var routinesPage: some View {
+        VStack(alignment: .leading, spacing: 18) {
+            pageHeader(AppLanguage.text("Daily rhythm"), AppLanguage.text("Choose a few checklist reminders that fit your day. Check-ins reset each local day and are not proof of an activity."), systemImage: "calendar.badge.checkmark")
+            ScrollView {
+                VStack(spacing: 10) {
+                    ForEach($routines) { $routine in
+                        HStack {
+                            Text(routine.emoji)
+                            TextField(AppLanguage.text("Routine"), text: $routine.title)
+                                .textFieldStyle(.roundedBorder)
+                            Button {
+                                routines.removeAll { $0.id == routine.id }
+                            } label: {
+                                Image(systemName: "minus.circle.fill")
+                                    .foregroundStyle(.pink)
+                            }
+                            .buttonStyle(.plain)
+                        }
+                        .padding(12)
+                        .background(Color.cardInner, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
+                    }
+                }
+            }
+            Button {
+                routines.append(Routine(emoji: "⭐️", title: "New routine"))
+            } label: {
+                Label(AppLanguage.text("Add routine"), systemImage: "plus.circle.fill")
+                    .font(.subheadline.weight(.bold))
+            }
+            .buttonStyle(.bordered)
+        }
+        .padding(28)
+    }
+
+    private var contactPage: some View {
+        VStack(alignment: .leading, spacing: 22) {
+            pageHeader(AppLanguage.text("Emergency contact"), AppLanguage.text("One tap in SOS calls or texts this person — choose someone close by."), systemImage: "sos.circle")
+            VStack(alignment: .leading, spacing: 8) {
+                Text(AppLanguage.text("Name")).font(.caption.weight(.bold)).foregroundStyle(.secondary)
+                TextField(AppLanguage.text("e.g. Sarah M."), text: $emergencyName)
+                    .textFieldStyle(.roundedBorder)
+            }
+            VStack(alignment: .leading, spacing: 8) {
+                Text(AppLanguage.text("Phone")).font(.caption.weight(.bold)).foregroundStyle(.secondary)
+                TextField("+1 555 010 2030", text: $emergencyPhone)
+                    .textFieldStyle(.roundedBorder)
+                    #if os(iOS)
+                    .keyboardType(.phonePad)
+                    #endif
+            }
+            #if os(iOS)
+            Button {
+                contactPickerShown = true
+            } label: {
+                Label(AppLanguage.text("Import from Contacts"), systemImage: "person.crop.rectangle.stack")
+                    .font(.subheadline.weight(.bold))
+            }
+            .buttonStyle(.bordered)
+            #endif
+        }
+        .padding(28)
+    }
+
+    private var securityPage: some View {
+        VStack(alignment: .leading, spacing: 22) {
+            pageHeader("Lock it down", "Use \(BiometricService.biometryName) to guard health data, medications and notes.", systemImage: "lock.shield")
+            Button {
+                wantsBiometrics.toggle()
+            } label: {
+                HStack(spacing: 14) {
+                    Image(systemName: wantsBiometrics ? "checkmark.circle.fill" : "circle")
+                        .font(.title3)
+                        .foregroundStyle(wantsBiometrics ? Color.emeraldText : Color.secondary)
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text("Lock with \(BiometricService.biometryName)").font(.headline).foregroundStyle(.primary)
+                        Text(AppLanguage.text("App locks whenever it leaves the foreground")).font(.caption).foregroundStyle(.secondary)
+                    }
+                    Spacer()
+                }
+                .padding(16)
+                .background(Color.cardInner, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
+                .overlay(
+                    RoundedRectangle(cornerRadius: 18, style: .continuous)
+                        .strokeBorder(wantsBiometrics ? Color.emerald.opacity(0.6) : .clear, lineWidth: 2))
+            }
+            .buttonStyle(.plain)
+            InfoText(AppLanguage.text("Device passcode fallback depends on system availability. Authentication errors keep your data locked."))
+                .font(.caption)
+                .foregroundStyle(.secondary)
+        }
+        .padding(28)
+    }
+
+    private var permissionsPage: some View {
+        VStack(alignment: .leading, spacing: 18) {
+            pageHeader(AppLanguage.text("Enable superpowers"), AppLanguage.text("Each one is optional and asked by iOS itself — change any time in Settings."), systemImage: "powersleep")
+            permissionRow(
+                icon: "bell.badge.fill", title: "Medication reminders",
+                status: notifications.authorizationStatus == .authorized ? "Enabled ✓" : "Tap Continue to allow",
+                action: { notifications.requestAuthorization() })
+            #if os(iOS)
+            permissionRow(
+                icon: "heart.text.square.fill", title: "Apple Health vitals & workouts",
+                status: healthKit.hasRequestedAuthorization ? "Requested · check Health settings if empty" : "Tap Continue to request read access",
+                action: { healthKit.requestAuthorization() })
+            #endif
+            InfoText(AppLanguage.text("CareSphere requests read-only heart rate, blood oxygen, blood pressure and workout summaries. It never writes Health data. Apple does not let apps verify whether read access was allowed."))
+                .font(.caption)
+                .foregroundStyle(.secondary)
+        }
+        .padding(28)
+    }
+
+    private func permissionRow(icon: String, title: String, status: String, action: @escaping () -> Void) -> some View {
+        Button {
+            action()
+        } label: {
+            HStack(spacing: 14) {
+                Image(systemName: icon)
+                    .font(.title3)
+                    .foregroundStyle(Color.emeraldText)
+                    .frame(width: 34)
+                VStack(alignment: .leading, spacing: 2) {
+                    Text(title).font(.headline).foregroundStyle(.primary)
+                    Text(status).font(.caption).foregroundStyle(.secondary)
+                }
+                Spacer()
+                Image(systemName: "chevron.right").foregroundStyle(.tertiary)
+            }
+            .padding(16)
+            .background(Color.cardInner, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
+        }
+        .buttonStyle(.plain)
+    }
+
+    private var donePage: some View {
+        VStack(spacing: 22) {
+            Spacer()
+            ZStack {
+                Circle().fill(Color.emerald.opacity(0.15)).frame(width: 140, height: 140)
+                Image(systemName: "checkmark.circle")
+                    .font(.system(size: 64))
+                    .foregroundStyle(Color.emeraldText)
+            }
+            VStack(spacing: 8) {
+                Text("You're all set, \(store.displayName) 💚")
+                    .font(.title.weight(.heavy))
+                    .multilineTextAlignment(.center)
+                Text(summaryLine)
+                    .font(.callout)
+                    .foregroundStyle(.secondary)
+                    .multilineTextAlignment(.center)
+            }
+            Spacer()
+            Spacer()
+        }
+        .padding(28)
+    }
+
+    private var summaryLine: String {
+        var parts: [String] = []
+        if let age = store.profile.age { parts.append("age \(age)") }
+        parts.append("\(meds.count) medications")
+        parts.append("\(routines.count) routines")
+        if !EmergencyContact(name: emergencyName, phone: emergencyPhone).isEmpty {
+            parts.append("SOS → \(emergencyName)")
+        }
+        if wantsBiometrics { parts.append(BiometricService.biometryName) }
+        return parts.joined(separator: " · ")
+    }
+
+
+    private func advance() {
+        commitCurrentStep()
+        withAnimation((reduceMotion || store.reduceVisualMotion) ? nil : .easeInOut(duration: 0.2)) {
+            if step == .done {
+                store.hasCompletedOnboarding = true
+                if !store.reduceVisualMotion { HapticsService.success() }
+            } else {
+                step = Step(rawValue: step.rawValue + 1) ?? .done
+            }
+        }
+    }
+
+    private func commitCurrentStep() {
+        switch step {
+        case .profile:
+            store.profile.birthDate = includeBirthDate ? birthDate : nil
+        case .focus:
+            store.profile.careMode = careMode
+        case .medications:
+            let confirmedMedications = meds.filter { !$0.name.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty }
+            store.medications = confirmedMedications
+            store.medicationScheduleConfirmed = !confirmedMedications.isEmpty && medicationScheduleConfirmed
+        case .routines:
+            store.routines = routines.filter { !$0.title.trimmingCharacters(in: .whitespaces).isEmpty }
+        case .contact:
+            store.profile.emergencyContact = EmergencyContact(name: emergencyName, phone: emergencyPhone)
+        case .security:
+            store.biometricEnabled = wantsBiometrics
+        default:
+            break
+        }
+    }
+
+
+    private func pageHeader(_ title: String, _ subtitle: String, systemImage: String) -> some View {
+        VStack(alignment: .leading, spacing: 6) {
+            Label(title, systemImage: systemImage)
+                .font(.title2.weight(.heavy))
+            Text(subtitle)
+                .font(.callout)
+                .foregroundStyle(.secondary)
+        }
+    }
+
+    private func featureBadge(_ icon: String, _ label: String) -> some View {
+        VStack(spacing: 5) {
+            Image(systemName: icon)
+                .font(.title3)
+                .foregroundStyle(Color.emeraldText)
+            Text(label)
+                .font(.caption2.weight(.semibold))
+                .foregroundStyle(.secondary)
+        }
+        .frame(maxWidth: .infinity)
+        .padding(.vertical, 12)
+        .background(Color.cardInner, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
+    }
+
+    private var backgroundGradient: some View {
+        LinearGradient(
+            colors: [Color(red: 0.01, green: 0.09, blue: 0.08),
+                     Color(red: 0.02, green: 0.03, blue: 0.08),
+                     Color(red: 0.03, green: 0.02, blue: 0.09)],
+            startPoint: .topLeading, endPoint: .bottomTrailing)
+    }
+}

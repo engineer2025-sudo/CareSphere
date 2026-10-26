@@ -1,0 +1,116 @@
+import CareActivityKit
+import Foundation
+import UserNotifications
+
+extension Notification.Name {
+    static let careSphereTakeMed = Notification.Name("careSphereTakeMed")
+    static let careSphereSnoozeMed = Notification.Name("careSphereSnoozeMed")
+}
+
+
+
+
+final class NotificationService: NSObject, ObservableObject {
+    static let shared = NotificationService()
+
+    private var reminderGeneration = UUID()
+
+    @Published var authorizationStatus: UNAuthorizationStatus = .notDetermined
+
+    override init() {
+        super.init()
+        UNUserNotificationCenter.current().getNotificationSettings { settings in
+            DispatchQueue.main.async {
+                self.authorizationStatus = settings.authorizationStatus
+            }
+        }
+    }
+
+    func registerCategories() {
+        let center = UNUserNotificationCenter.current()
+        center.delegate = self
+        let take = UNNotificationAction(identifier: "TAKE_ACTION", title: "✓ Taken", options: [.authenticationRequired])
+        let snooze = UNNotificationAction(identifier: "SNOOZE_ACTION", title: "Snooze 10 min", options: [])
+        center.setNotificationCategories([
+            UNNotificationCategory(identifier: "MED_DOSE", actions: [take, snooze], intentIdentifiers: [], options: []),
+        ])
+    }
+
+    func requestAuthorization() {
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge]) { granted, _ in
+            DispatchQueue.main.async {
+                self.authorizationStatus = granted ? .authorized : .denied
+            }
+        }
+    }
+
+    func syncMedicationReminders(_ meds: [Medication]) {
+        
+        
+        guard Thread.isMainThread else {
+            DispatchQueue.main.async { self.syncMedicationReminders(meds) }; return
+        }
+        let generation = UUID(); reminderGeneration = generation
+        let center = UNUserNotificationCenter.current()
+        center.getNotificationSettings { settings in
+            DispatchQueue.main.async {
+                guard self.reminderGeneration == generation else { return }
+                center.getDeliveredNotifications { delivered in
+                    DispatchQueue.main.async {
+                        guard self.reminderGeneration == generation else { return }
+                        center.removeDeliveredNotifications(withIdentifiers: delivered.map { $0.request.identifier }.filter { $0.hasPrefix("med-") })
+                    }
+                }
+                center.getPendingNotificationRequests { requests in
+                    DispatchQueue.main.async {
+                        guard self.reminderGeneration == generation else { return }
+                        center.removePendingNotificationRequests(withIdentifiers: requests.map(\.identifier).filter { $0.hasPrefix("med-") })
+                        guard settings.authorizationStatus == .authorized || settings.authorizationStatus == .provisional else { return }
+                        for med in meds where !med.name.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
+                            var comps = DateComponents(); comps.hour = med.hour; comps.minute = med.minute
+                            let content = UNMutableNotificationContent()
+                            content.title = "CareSphere"
+                            content.body = AppLanguage.text("Open your confirmed medication schedule.")
+                            content.sound = .default
+                            content.categoryIdentifier = "MED_DOSE"
+                            content.userInfo = ["medId": med.id.uuidString]
+                            let trigger = UNCalendarNotificationTrigger(dateMatching: comps, repeats: true)
+                            center.add(UNNotificationRequest(identifier: "med-\(med.id.uuidString)", content: content, trigger: trigger))
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+extension NotificationService: UNUserNotificationCenterDelegate {
+    func userNotificationCenter(
+        _ center: UNUserNotificationCenter,
+        willPresent notification: UNNotification,
+        withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void
+    ) {
+        completionHandler([.banner, .sound])
+    }
+
+    func userNotificationCenter(
+        _ center: UNUserNotificationCenter,
+        didReceive response: UNNotificationResponse,
+        withCompletionHandler completionHandler: @escaping () -> Void
+    ) {
+        let idString = response.notification.request.content.userInfo["medId"] as? String
+        switch response.actionIdentifier {
+        case "TAKE_ACTION":
+            if let uuid = idString.flatMap(UUID.init(uuidString:)) {
+                NotificationCenter.default.post(name: .careSphereTakeMed, object: nil, userInfo: ["medId": uuid.uuidString])
+            }
+        case "SNOOZE_ACTION":
+            if let uuid = idString.flatMap(UUID.init(uuidString:)) {
+                NotificationCenter.default.post(name: .careSphereSnoozeMed, object: nil, userInfo: ["medId": uuid.uuidString])
+            }
+        default:
+            break
+        }
+        completionHandler()
+    }
+}

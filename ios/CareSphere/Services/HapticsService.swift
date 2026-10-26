@@ -1,0 +1,68 @@
+import Foundation
+#if os(iOS)
+import CoreHaptics
+import UIKit
+
+enum HapticsService {
+
+    private static var engine: CHHapticEngine?
+
+    private static func ensureEngine() -> CHHapticEngine? {
+        if let engine { return engine }
+        guard let newEngine = try? CHHapticEngine() else { return nil }
+        newEngine.resetHandler = { try? newEngine.start() }
+        try? newEngine.start()
+        engine = newEngine
+        return engine
+    }
+
+    private static func play(_ events: [CHHapticEvent], fallback: UINotificationFeedbackGenerator.FeedbackType) {
+        if let hapticEngine = ensureEngine() {
+            do {
+                let pattern = try CHHapticPattern(events: events, parameters: [])
+                let player = try hapticEngine.makePlayer(with: pattern)
+                try player.start(atTime: CHHapticTimeImmediate)
+                return
+            } catch {  }
+        }
+        let generator = UINotificationFeedbackGenerator()
+        generator.notificationOccurred(fallback)
+    }
+
+    static func success() {
+        play([
+            CHHapticEvent(eventType: .hapticTransient, parameters: [
+                CHHapticEventParameter(parameterID: .hapticIntensity, value: 0.7),
+            ], relativeTime: 0),
+            CHHapticEvent(eventType: .hapticTransient, parameters: [
+                CHHapticEventParameter(parameterID: .hapticIntensity, value: 1.0),
+            ], relativeTime: 0.12),
+        ], fallback: .success)
+    }
+
+    static func warning() {
+        play([
+            CHHapticEvent(eventType: .hapticContinuous, parameters: [
+                CHHapticEventParameter(parameterID: .hapticIntensity, value: 0.8),
+                CHHapticEventParameter(parameterID: .hapticSharpness, value: 0.4),
+            ], relativeTime: 0, duration: 0.25),
+        ], fallback: .warning)
+    }
+
+    static func error() {
+        play([
+            CHHapticEvent(eventType: .hapticContinuous, parameters: [
+                CHHapticEventParameter(parameterID: .hapticIntensity, value: 1.0),
+                CHHapticEventParameter(parameterID: .hapticSharpness, value: 0.2),
+            ], relativeTime: 0, duration: 0.35),
+        ], fallback: .error)
+    }
+}
+#else
+
+enum HapticsService {
+    static func success() {}
+    static func warning() {}
+    static func error() {}
+}
+#endif
