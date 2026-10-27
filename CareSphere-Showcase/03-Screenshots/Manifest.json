@@ -1,0 +1,2442 @@
+[
+  {
+    "file": "001-overview.png",
+    "description": "overview",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "bf3851d449de20920bb59665f04dbb8027fc3756403f206ccf72ebbbf2644f05",
+    "framed_sha256": "0b74252ede2fdda331414538ea0e41a79b8397e3f3e9c123bf00c118fb53921c",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "002-mood-check-in.png",
+    "description": "mood-check-in",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "a790bcb5b6c5639bf01305edff17d1a37851f58c0cdac883b11627c42d6c5787",
+    "framed_sha256": "4a80a9340e14464b7e97e446272dbab764ac0f55ae5b80b9fdc8e2e89483e84e",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "003-daily-routines.png",
+    "description": "daily-routines",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "005437273074481b44f28792f4aa1cb3488ab22afdac4a3ba447609f2f6619cd",
+    "framed_sha256": "854ea93c40f6099c81fdf4b42845f8f39abcd43021965df7a201e7506311095f",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "004-medication-setup.png",
+    "description": "medication-setup",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "4fb23ce88a295fc2705b6bc54933150ecde94ae8f19c77c443f74acc351aa7af",
+    "framed_sha256": "20fedfd72875bdaaa38c22b310d4d1d6a7ceb9f6293828fc5fd833b8e18d5251",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "005-support-tools.png",
+    "description": "support-tools",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "cd6ee4816b6eb9921fe73d00e8f0728fe420b95c220e3c1cc56d12a990557d47",
+    "framed_sha256": "cf7beceacba57348add42e01b80907e64b718299833e0d3e1a1a606cb39bca97",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "006-activity-library.png",
+    "description": "activity-library",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "d5c9fa524146d76c5ce2eaaed2e3ffda7e2e25cf3cd3193a21767f9328002eff",
+    "framed_sha256": "46ab5c7420fda2d18d20041652be9507a89c9af58ba2e4a344cb4e21193e020a",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "007-activity-preferences.png",
+    "description": "activity-preferences",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "0d2faac3aba91b513efa2513dc915a6e45175e6be6b4b8bf6bd0da38b81d9274",
+    "framed_sha256": "125d891a46d8698a1b3a2d2cb9b6df3f4f71f3bf86be6a4363ac201a266e9dda",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "008-solitaire-search.png",
+    "description": "solitaire-search",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "e3bf3598c2db9559d7c61047ddb221256eb6bd132f0a2f6dfb7e3e413df3af57",
+    "framed_sha256": "c7d093ec5fcc00bb299983851b9651bea16820acde79008e3cd84a15cc72ed7c",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "009-solitaire-ready.png",
+    "description": "solitaire-ready",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "9bca56cecf8f2cbebc557cf526fae3be4ac1a503ba9ec994aeb61bee65f294da",
+    "framed_sha256": "d4b6bcb6dd0c6a51bf795c6c66afdb803e8b74032b9d71b39b5eeea0d30cf0aa",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "010-solitaire-drawn.png",
+    "description": "solitaire-drawn",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "e59ddb9f8a8e7e6ee0cadb2a31bb010186477400eff8ad36d2c9273b23f58d98",
+    "framed_sha256": "2f772bc3b957f37bf97966fcaf9c6e09c5a4b8e11216658a2b95d53bb86633d6",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "011-solitaire-board.png",
+    "description": "solitaire-board",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "b673095deaacf08309ced15efe5f3ab1434582300b984607655c61e64602afd4",
+    "framed_sha256": "e7fef6b7d31e021ad023bf2129499d2ec3b60631dec2c1f8d5ee085f72f76efe",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "012-solitaire-draw-three.png",
+    "description": "solitaire-draw-three",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "d087df8971c011be16b2c14948fba59bbeb1ff17e15ce6edc92da137768008cd",
+    "framed_sha256": "f4075933ed78074dc077eb1fc898a235451315a24545c048acc7af57bdf845d0",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "013-word-search.png",
+    "description": "word-search",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "f25fecb8de32dd50338fad3939eb86e03efedd4d3728ceb42254f109cd404444",
+    "framed_sha256": "bad2021dae214d6005aafaa06395ab3a48dc1756429367abb066fc75b98bc8ca",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "014-word-search-food.png",
+    "description": "word-search-food",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "fff76eeb08b701c23bc8b80ba264e2332a8eaa9c46dee4359536904c3b83b7d5",
+    "framed_sha256": "141b2dde1b0d42dfa04fa1508730a9fcbd43de424b0b2e07ad811f0850613d07",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "015-bingo-ready.png",
+    "description": "bingo-ready",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "270b7085f18e57e49a24b4738d448455e4a28f1f2e09605893b40b7c84dbc75b",
+    "framed_sha256": "b7a7e8d0986dc4c888569ff41de9974ab748a34054df0e5b471b6f1f5f0e9be0",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "016-bingo-called.png",
+    "description": "bingo-called",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "3b9fb8a01f1c8fa8799826e04d4b137a496c7d0cacd2f646836c00ce5723dba2",
+    "framed_sha256": "d5e1e233ce191d5e5f239de2ff391606c3c8b347966320f3b8f36a18a2ef21c4",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "017-picture-pairs.png",
+    "description": "picture-pairs",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "e24e33f16b00f8399e2f58401967e86de91fd12d1ac69f138fe1f1284cd83f9c",
+    "framed_sha256": "0f104b328c0abe8b4f8a3ed64608621d2fb85b3d67d7e0f2bf13c4051aa162e6",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "018-picture-pairs-revealed.png",
+    "description": "picture-pairs-revealed",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "dc1db59c0b379681261fb5963c434f9146a1496fc1e63e8bfba729fb6fc024cf",
+    "framed_sha256": "735fbfafc9e792610de79b6346fa4fcf7eff472e9746dcbb8eeddd4b9d931e38",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "019-picture-recall.png",
+    "description": "picture-recall",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "840e7e798a32725b03a3bd6f6f191538997fe59fdd7cfc4f5640a3cd459a3bd8",
+    "framed_sha256": "13cc78f754357087aae9925473586ba4999305c11add1614002052bccc281d89",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "020-feelings-explorer.png",
+    "description": "feelings-explorer",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "a80224e0c47a9c9dec475002dc26eb5b8c56cdc9e6eaba438f57a2b9f72f1f12",
+    "framed_sha256": "22294a63d7f9ecde961059c67826294c8046c7a7cd6f2990b0761536b800a049",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "021-picture-story.png",
+    "description": "picture-story",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "f9806f5c7ae675abeae1b3f54d7002e9987f6e6c1979b0f3cfe799ad1a58c829",
+    "framed_sha256": "3324cda7123a822eeec3806e39447c0ebe4674db724a3577cd6dbced3500c3a8",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "022-remember-pattern.png",
+    "description": "remember-pattern",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "ec45846452bd3ee21909cfe93cbf9f447233c9e8f5c0f8e77f7f8c9a7342e959",
+    "framed_sha256": "2f2425446f9054dbb0735893c27f36e11bbd09eaf63f64d0c788e4dbc0068b64",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "023-sort-together.png",
+    "description": "sort-together",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "9e1573664d79924a1f771be4e201f972e4e8cc059a434a1672f9985955e6702f",
+    "framed_sha256": "ec3e1015b043c5d5548cc7f00305a92a173d6c66d1ddf2b8e75ae6b9d1ce5f86",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "024-complete-pattern.png",
+    "description": "complete-pattern",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "8f718fbb135f2ca7ae1c49212408c6003163b793f15ad3c9e86c7bc198a4cbd2",
+    "framed_sha256": "29ddb1dcd80cf5a30c67e943cbd0afd68a12aa249674598297a9f610e8f1f136",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "025-find-the-same.png",
+    "description": "find-the-same",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "31da27fe34a847fa034ca575074e1c9d938577f185909aeac66f8319a44d1231",
+    "framed_sha256": "b27333f806de07b9bf691f02d00f6ad954d9374351146c109afa181fd2ec6bab",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "026-everyday-order.png",
+    "description": "everyday-order",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "2ae9a7fde7cd03a263a35bb1628edbe1d3c9becf0f14d186cf83c0fbb34db92f",
+    "framed_sha256": "74a651cec50070b66e8df37aa5f0c57cab28983edd8bdc891820a0c0abc0a787",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "027-conversation-cards.png",
+    "description": "conversation-cards",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "784272e2ae1c42209c9d124167d5a127d57c2272d08b090400f0fb15afea73c3",
+    "framed_sha256": "266a08a524e31f74e12d55ab4786a533e5b2761ca9b438344756a32bc45cd735",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "028-social-moments.png",
+    "description": "social-moments",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "3400ef9a8407555fbfa2d5d4395b42008a55457684b9818c6ddf38a9cc2a0dad",
+    "framed_sha256": "16d796df3692b0fc6bcfdd5897ff75af2d8c6a4475e1aff8cb96ab664536de1c",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "029-breathing-ready.png",
+    "description": "breathing-ready",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "9a76f3914fb6b5e25b4dac9d344f8bbfab1a7cea6a5d13c20532b2e9d15de424",
+    "framed_sha256": "eddc1b3537703c81de31bc97b883071ec115dbe02b32d63ba14c7f75bfcb0f11",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "030-breathing-running.png",
+    "description": "breathing-running",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "8873eb5838b73b2274e7fe2a7850c7db856618462dbecd901a5a6008ef812d41",
+    "framed_sha256": "16ec960158e83b0e61ad21bef408518347bb08b85b65c3135777eb0ef6f0ab63",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "031-soundscapes.png",
+    "description": "soundscapes",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "f3d6580288a991e1acac66ebf89b7aec4ba418c80f4445feeaab661cc4b0d549",
+    "framed_sha256": "73d66f45343b0ce564d724e30dd7d2b08b60391922f77e4ceafcb31f7fa2539a",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "032-rain-playing.png",
+    "description": "rain-playing",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "5e921d8102c66f6187c23ee92a180f8792a49c37c009a731ab3f348880e90d8e",
+    "framed_sha256": "a50c9c14cd8681ddd2b17e9bb6293b0d2d936987846730db7c25a87dd930c0ea",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "033-forest-playing.png",
+    "description": "forest-playing",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "49a467b400621f310a346aad6c12f6f77ebb71df558b02dd345e651ce4bdb257",
+    "framed_sha256": "cb9d8e7ceaeed02382a7c800a947c0d8dd5b8823f1ae12e16de8d50544efe247",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "034-coffee-circles.png",
+    "description": "coffee-circles",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "cefe14f546507b29add4bc47d9dc9cd753d885204cad6f16b21acd504454d3c5",
+    "framed_sha256": "03604743dc93a247a84ac8fc984fb24db033c486f434a2e909668d172d920faa",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "035-care-circle.png",
+    "description": "care-circle",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "2dbb290d625a81cc43cc68769b8302ca0d203a83a69230ed9b921bdb361d573b",
+    "framed_sha256": "9e866b2fc2395efc9537bafef60fa19958840cb73b2a4b46e5eec98c78c615eb",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "036-visit-brief-choices.png",
+    "description": "visit-brief-choices",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "3aa2773397d8e896260efe50e7ab1c71cec9fd67c1f74d50a0dd50b40ae68ab2",
+    "framed_sha256": "af3ed5a8f806908c802ad22b8b524405cbf3d173d5c7249a45df20028d89487c",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "037-visit-brief-preview.png",
+    "description": "visit-brief-preview",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "e4777e39b92269ed6171c1252a51a7efab4bee17e930688431b5dcd4ffb82ee6",
+    "framed_sha256": "f7aacef27cd678dd93fa1d7c383f6f91a675781af5f3c776cfb441d3d4dbcac1",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "038-encrypted-sharing.png",
+    "description": "encrypted-sharing",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "3c0d3ac2bba6fd1e7b5ace5f75ec8872327c093cdc5cda07cf0de338720c2950",
+    "framed_sha256": "f1a619dc3cd2cd1cc5f7f9c63a1ce0060323066ee86b4155c1772924c5cec93d",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "039-vitals-unpaired.png",
+    "description": "vitals-unpaired",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "33eeaff4ea666dee57aee6747b3f18fec5b60bf69279dc001b0a46e3aea92886",
+    "framed_sha256": "c82f22c994ed403561e7f6cd2f9ce98b61a18cfc5c7daf8a7ae232bceb1051e7",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "040-manual-vital-form.png",
+    "description": "manual-vital-form",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "0927876372414da3715af0dba137c05f95eac1f44ff8565613679a4826fa4480",
+    "framed_sha256": "afab5022e40bce76e11c9737e8089eb9449ed4f79168ef96b92f13299a802cde",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "041-settings-appearance.png",
+    "description": "settings-appearance",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "8736ac0bd13b7db8d1ce384ab7b7158cd264b1c10bfdd34623aaebf741525563",
+    "framed_sha256": "0796b22d85df14d0346972698136afcfc4ccbc2b2de5d0f935887f174b762faa",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "042-settings-privacy.png",
+    "description": "settings-privacy",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "57e54183cd146fef44e46a237b56708b9bd173e9d7d5e4738072c2c704cfe4f7",
+    "framed_sha256": "1849c6792cf1be840d90265f573a46ccb63da898dd193b5cc8e925dd58cb0d88",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "043-light-appearance.png",
+    "description": "light-appearance",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "81a160232c70bfcfd5e081e3c9c6eacded1cb744fda1f01bb20af33b545d20d5",
+    "framed_sha256": "e30f5685f7dc741620804fcf47e1712c4f9ccd0006427e80bd632631e1a12fef",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "044-high-contrast.png",
+    "description": "high-contrast",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "11a56bc72453e36ab13258e2fe4c85291a27bacc2cabe38c8fd07b141c3e115f",
+    "framed_sha256": "64b4b5dc5d0ac6fb7ebf92acc77b476dba10357a90252dfbd0920b31bbd7b412",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "045-sos-options.png",
+    "description": "sos-options",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "4fe427edaf8314280c1495c89cdc6e122e4a9ba639298808f7aa033284458113",
+    "framed_sha256": "1772b6e80958806e3d08343aa820b9806d5a555f6a654fc4421c97409925fdb2",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "046-visual-routine-builder.png",
+    "description": "visual-routine-builder",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "043b3a6f2f728ad542e958173f44ae64d140e7d5cf5f5b3d2ff08ff6cb7529e2",
+    "framed_sha256": "afcff6c27d8cbe7e90c0259191ce3b162d85f6f445d45fa9b07df00b5c720764",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "047-communication-cards.png",
+    "description": "communication-cards",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "43208af41160e3d7a1db000eb506e252ab4102ee14e5b851ab8f55015d5b0b70",
+    "framed_sha256": "aa3dfc7018a6cfbf442624cbf87c6ce4b2845c3c6b2a758742b0daece1b47032",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "048-photo-library-empty.png",
+    "description": "photo-library-empty",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "b2eaa53c8a02a0280e7f519c1a4f3c9a01445ccdb8bac78c66acc0534cb18035",
+    "framed_sha256": "ca5a33277691189874d79b239203a5a5caef129d4d9b4697db4dc850874abff5",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "049-personal-contact-form.png",
+    "description": "personal-contact-form",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "2872bfcf3469a6f8af6d876a88fd85fe6728697940c803da5e9885bd3224a244",
+    "framed_sha256": "7c2570bdd85836b7a2c68c2dd26edc82a6112766a4e60e337f7ec66e13361e6b",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "050-comfort-options.png",
+    "description": "comfort-options",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "2a7b5dfa41d743218132977f8170e0972ef0954c3ddf9f3f612de9f60f2ed111",
+    "framed_sha256": "eb6e5742273e9d2e5db84b092254c060fab70ff6f759f874b47066f0f6da1525",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "051-appointment-questions.png",
+    "description": "appointment-questions",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "6003609e830ace905fe7132d5eceaa960362b7fa3a705de4dcdd75ac998ae421",
+    "framed_sha256": "9675b231ee354cf79f961bf5d369ee80d46ae1113b9bac3ceea6a74b48fa7bef",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "052-offline-health-references.png",
+    "description": "offline-health-references",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "9ed217539405461bb9601f11abaf3d11f05b842461ca5aaa30103e77d44a95be",
+    "framed_sha256": "55e5ef5635b561b909c9f7967638351296156a9559ee25fef231fc7972935c17",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "053-encrypted-backup-and-recovery.png",
+    "description": "encrypted-backup-and-recovery",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "bf527f7c6eae6755a407108cbf46298b65c6660c8709b65a76be56ee022ad584",
+    "framed_sha256": "65e47c6b6ba9b44a11e5189af3052b66e9b07414cca34b55610110e8e4280514",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "054-interest-prompts.png",
+    "description": "interest-prompts",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "5177ca0e12521d93e9f3f28fd9aee14af09dad96e9a1ed8211466b6676d03094",
+    "framed_sha256": "a9a41c2ab4e63b9612d6f675b7a3628ba07420fa33ca9061687316e52abbf7cc",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "055-communication-break-display.png",
+    "description": "communication-break-display",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "443d38e79e78c730f8518350af711404ca802a9ff2bb066afa1a8a8bb5a625d8",
+    "framed_sha256": "011ddb7d3ea592eef2a99c1638575fed5ccb4f44f9279130bb91b363bb092f2e",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "056-communication-explain-display.png",
+    "description": "communication-explain-display",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "f91840fc5e6d64f9ba9276c6fcebaf3332583cc30e659d0fda5c1b2b75332a45",
+    "framed_sha256": "0778e96c4f9e94b1358c33d0f1280fbdf67e0af1ae9ddad8dcc0f0598c55932e",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "057-visual-routine-example-draft.png",
+    "description": "visual-routine-example-draft",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "e897d84797a30697c98350f3efea066db9ba33dc5d0ac6b338e7d86de763bc76",
+    "framed_sha256": "d8d7ab568c96e41ec13989a573d552ae80531df6627b0eddc502e275fa0c8d3c",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "058-visual-routine-example-saved.png",
+    "description": "visual-routine-example-saved",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "74ec651af0fe6fe22619e76666b4528c421d9574095ca508fdc783c740f7931d",
+    "framed_sha256": "d8e159d083306ed607f951655cbff7da76431c2f91c9d6514eb4799b275afa96",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "059-visual-routine-step-one.png",
+    "description": "visual-routine-step-one",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "44f9e5c68c9161cf87cbde9ea9d4e7fb9c9f36affb80751a19680055d2aa05f6",
+    "framed_sha256": "347c310575d9e1d7c5d80ca5ad2ed98b6090300bf2fc66ae68c3d3fdcb066323",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "060-visual-routine-paused.png",
+    "description": "visual-routine-paused",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "02a8715df137914997ef1ed7e3d300362998a166cbbe5f32ee996907fbd1bf30",
+    "framed_sha256": "9c76b514769724d63fa3ae7f6e41531304b7092947919cd01f62928543da4000",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "061-visual-routine-step-two.png",
+    "description": "visual-routine-step-two",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "ac2c239e4ec89b6543e325064db228f02a5fa94fdd5adb7c7fba8320dd019fdc",
+    "framed_sha256": "452691cd6a355c73538c2873e37ab9155c2b37892e678ead2274cb17a4e7cdda",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "062-appointment-question-saved.png",
+    "description": "appointment-question-saved",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "1573497d0a65ca87059b54a04ff2d84bf2e350e45d05b5aa0f54e6c4054ad364",
+    "framed_sha256": "a4616b9d6fbb00a19a9b2a1998e63ea4ce587cf6688e2e52e41f744caac18801",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "063-appointment-question-priority.png",
+    "description": "appointment-question-priority",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "52d7cc711d20b96fab8a7fb2d189e34975658b47e9cb7f06f05b0e2632eef0b8",
+    "framed_sha256": "e14bd0363ea6d57d1d576c041ace8fefb127c8b3152ec34caf221daa9bbf9186",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "064-health-reference-search.png",
+    "description": "health-reference-search",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "2503c5668f9faac3bf96001b13463bb2cca9cf4fdc7a8780f3586800e7f71f97",
+    "framed_sha256": "553964f52c369d2b9fe5d511cb3f5e5d923c0645aeebd92adc15305740237213",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "065-interest-music-prompts.png",
+    "description": "interest-music-prompts",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "25b079ce7faa07b6806fa751a4926a5df67dfbf33e488d5ddae1b1b289e34e35",
+    "framed_sha256": "7fb1f670e539d94c90eb787a80340003fc037c4773a4391489ecd8e2353d48dc",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "066-interest-familiar-prompts.png",
+    "description": "interest-familiar-prompts",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "76beec12c197028ba7dc39e2706fc9f5a21c7e4860ebe4ad402412b297203c23",
+    "framed_sha256": "1c6ba36b72f8232883775bf4cb41e2fcd00cdbbe3b3f89b8e17cb9de675a11d1",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "067-simple-mode-comfort.png",
+    "description": "simple-mode-comfort",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "c498b40b85cd49f69a59d3b89d1aee6007974d0f8ea59fff07c4aeda345c5bec",
+    "framed_sha256": "762aba07e7c384d40c773e594504d2f7b5e7424da3b25d6be6372dc20e400ce9",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "068-simple-mode-home.png",
+    "description": "simple-mode-home",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "e4d6f34edd7192da2f0f38a8292d35a02ba38fc9a8cc2b2421f89918d5247cd4",
+    "framed_sha256": "b3c20166153ac0865fb4170a46ee8d4f83d543f1ea0975d554342d6f0259b8ce",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "069-research-reviews.png",
+    "description": "research-reviews",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "946247d077d43a64f7f56106ca738d079ee97fb6afeaf16befe4f85783d3a1fc",
+    "framed_sha256": "fdcfc7bdb58598adb09ccc49be6288d290467a005844b9b37a6d0404a7e04916",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "070-research-design-and-boundaries.png",
+    "description": "research-design-and-boundaries",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "4d15c0bb27de8d923072894bcfdd419004b7c04902754c5187332b7899b07d60",
+    "framed_sha256": "f03b52cc3707bd2f6c5e9b7877d0247c5060cb34288ea80be4e88c5ebf10c8ee",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "071-activity-category-thinking.png",
+    "description": "activity-category-thinking",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "ac69870ef0083568b96794238ca1102f23cb861367dcab4cbc519685f06e2716",
+    "framed_sha256": "06ea168c8fa354cdeb069b590eaf470fb7254bc7cc66a77754dd739a6aa55340",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "072-activity-category-connection.png",
+    "description": "activity-category-connection",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "b778225935a1568bce3047ed9f810a5d5a85756b4e5aa77718d61a8c86cefa66",
+    "framed_sha256": "668e4d97f0cf1590b258b05bd3ad99875870e18253558e19a0f00533db9fe212",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "073-activity-category-calm.png",
+    "description": "activity-category-calm",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "ac99c88214baa6918b5a7392b5d95d8dd718377e86ad9926ece6c40fc74c200b",
+    "framed_sha256": "52437942464094b3abab782f21f86d9f14b2c897836602ea3b0751aeffeeb511",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "074-activity-category-everyday.png",
+    "description": "activity-category-everyday",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "2cce35558782944566fcf0e67f407947e084e482564500d4b247f626f97ea3f8",
+    "framed_sha256": "d3566b2ad2f49aed2a70f1f326eb23e4b82debab2fead27beecbac59d7fb92ce",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "075-activity-favorites-solitaire.png",
+    "description": "activity-favorites-solitaire",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "fde50711a4aa17ba955f8d60bba95104f603428fc40d1c919e36a632beb2d2e8",
+    "framed_sha256": "26fb0d91a3b8c843c52ce3c4098b90e9fc5d13d9eff86a348ce7f0fccdfcb40d",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "076-care-note-example-draft.png",
+    "description": "care-note-example-draft",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "ead412fc046956d7e1101504beaf0125b5cbbf5bfd88a49cd6bca4d683ba0059",
+    "framed_sha256": "33c0ba8bc16d2f0282154b1c97480bc28d8809b073a53dfe2e7e52b9fac6b12b",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "077-care-note-example-saved.png",
+    "description": "care-note-example-saved",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "34394e3efa5d0a532d7648cc3969f1e61bed812f20d3d0d0491b7cab3a23accb",
+    "framed_sha256": "8c6af503efcbd9ebedebd7fb7d6e26b4464719297bb892385e2eddf95c2fe4d0",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "078-care-note-editor.png",
+    "description": "care-note-editor",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "0d96f610c993f4d4c3582cc39f8530c198e21e0228302292186bf23d464b7713",
+    "framed_sha256": "36420b8d33dcd89db98dd2bb96ddecfb8bbde36bdbb42f2c00f6e8094c923209",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "079-care-note-delete-review.png",
+    "description": "care-note-delete-review",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "5a17f0ca058bae296d0d7e7b4e1f117509edd79bbdf8c1cd42d7e9293fc85f20",
+    "framed_sha256": "ffeef8fe80d4af74e5889caa5ceeb28baa9365dd4e3ae6034fca582193bb528f",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "080-manual-oxygen-entry-blank.png",
+    "description": "manual-oxygen-entry-blank",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "3187b326cbc7e3ec832a0cb5ac3d43f4db5f4afe06e43e2d4a6fa6a91929b03a",
+    "framed_sha256": "644fbae99514fc44e57485ed3befb804c76dbc53d268b04a7549f4b8ea91a86c",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "081-settings-language-chooser.png",
+    "description": "settings-language-chooser",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "d4462bab051b9735f86d599df19f751f237039daa7b0b51ca617cdc61b0d699a",
+    "framed_sha256": "92df4fa58c604929c7d3f182ce64263675cea292d96a336b8914e5ed7fc0816a",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "082-largest-text-overview.png",
+    "description": "largest-text-overview",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "05781ea2419b14be5131a7650d210f895d3bbdf6528733a23456ebf31495cf58",
+    "framed_sha256": "7b86281be3795f96942f9c81f06cf9e848d6e6e02e8a0079b6c11c3f6274d549",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "083-sort-hint.png",
+    "description": "sort-hint",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "c5a2e170eac2a8fa343d9866067346b219ff5071c7f9fc26f5ff5728ee369cfa",
+    "framed_sha256": "11f264e3005a57360e0bb4f3990064e1aae6583ef008b521bc60b9f695f2b530",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "084-sort-hint-next.png",
+    "description": "sort-hint-next",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "42200fb471981d83b61e8c1b10c5c756354ab4961e5521c8929ecc8e4bf03eac",
+    "framed_sha256": "89daf1dcf8a8de02c9eaed907ad92e5aebeb2da9a818cb06d0e15c89e10a94d5",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "085-pattern-hint.png",
+    "description": "pattern-hint",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "c4988801a3d56a9886eaaade918bdd8324d57b28eabc60bc51c0d8877f89aa69",
+    "framed_sha256": "130b1189b847653886187a042e015bbe3b5a24439ef76eeb1ae3293ce6d45b4e",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "086-pattern-hint-next.png",
+    "description": "pattern-hint-next",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "b5b8d2c11dc48f4e371c9496eb62d35db9b84f05eaed493ddec98ecdd7825144",
+    "framed_sha256": "cf0fd138ed181237c5e07382d150c952fb3e7eada97ad68e3618b6c8490425cf",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "087-matching-hint.png",
+    "description": "matching-hint",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "365b39471fee8c51448fc32312ed2f1a025ac57a4806502d8cc54e72ec0a2bd8",
+    "framed_sha256": "503706d54628095e961839fbedcd3999bcad9b51218d60cc5d0967027e8fc9e3",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "088-matching-hint-next.png",
+    "description": "matching-hint-next",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "b5579144be48b2885c7268422207501aeaab4556af6448623d4b69db30de5864",
+    "framed_sha256": "d0398c55864c8798e4821d7eaef3d66c75f950c63bf3e471382494610da31b13",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "089-everyday-hint.png",
+    "description": "everyday-hint",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "08a290f34240f7bf4063577b067ea92364cac72e6ff6eea8e1d79babfe1ca42f",
+    "framed_sha256": "8d45864133dad20afcb33f5d69bab93a98ae1eed7b74c7711e9c295fade0a38b",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "090-everyday-hint-next.png",
+    "description": "everyday-hint-next",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "6823f6d927c602424f61eec2bd6577d3d1b8ffd45dcb1d27e2582188ca5be7a4",
+    "framed_sha256": "309fa8437950b6010f7ad0c767ff6f6b4cb5a531015273142867aa51e9fecb08",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "091-social-choice-reflection.png",
+    "description": "social-choice-reflection",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "41ee8fe2d3e8b247eeec6aa9ce31f98362284ee5812b1960a4d4d6876d33c5df",
+    "framed_sha256": "5755f7a8c8054d846aca1f6009f8e55eb6a1f2d399e971b0c71abc13b5a967de",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "092-social-next-scenario.png",
+    "description": "social-next-scenario",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "4e60b7fe7417a2e87b3bb9397d0e211a89d1c6db32f6b7bb578696af73c60724",
+    "framed_sha256": "eceff310adce4ebf6dc7c9795a308688ba281069f1f58f8eb7e8c4a9b025a454",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "093-activity-paused.png",
+    "description": "activity-paused",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "2405152cbde80718c6029ff16c293b100310e52362c366e6e373722f4dde2676",
+    "framed_sha256": "6bed40ad39303b8ce736ceab25081555321d3eb6468bd079b31b96674d6d4cec",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "094-solitaire-resumed.png",
+    "description": "solitaire-resumed",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "09413106f3f45f2fbc334020537e6a92dff01c161045be118b2a0a2d11229c47",
+    "framed_sha256": "073c7c384fe37c2ad04b6d963ee8591dc418471a0c2652182d257d1792c5fac1",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "095-waves-soundscape-active.png",
+    "description": "waves-soundscape-active",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "7e26f404f53f1c0bd3c55095e2900d38a1acb2ab790f6488dac180c0802e72dc",
+    "framed_sha256": "26967353d515c1858806435d21b4d4d9ad3d3810318c57c7a11ac6149e0f6a32",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "096-hearth-soundscape-active.png",
+    "description": "hearth-soundscape-active",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "06c8e5939eb4ef43ac47bebaec53828773e99ea2b509f5fb1c84a2240c4faf2e",
+    "framed_sha256": "ff3bb2ed72eb7c49c2a1f97f784c117b4000bc5df4ce8df5e83ee77e288d3188",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "097-bingo-six-participants.png",
+    "description": "bingo-six-participants",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "en-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "8e84ac250e27c2262bbfeed58c1516adffb78dc9e562cda033113fc5773b7ea3",
+    "framed_sha256": "9a1fcdd3ecab18c4a1bb079f5a1801b4dd78bbe075315d7b9288eb9b58c74da3",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "098-zh-Hans-language-settings.png",
+    "description": "zh-Hans-language-settings",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "zh-CN",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "ed277d5e70c85a05fd6609ad3212852f821506ed3b8646fdf5caa80571fc9735",
+    "framed_sha256": "7a8ac641ff8d7da8f4bfc3d309715492d2b3962a4dbcb4e4d992696a4c25ecc5",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "099-zh-Hans-overview.png",
+    "description": "zh-Hans-overview",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "zh-CN",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "e7bbd8c01aa64a3945d9d5fe19f38260efc311703374937190a11c587e02b7c9",
+    "framed_sha256": "bd4a2dc6762b269ba61ff35a188704428c5312dc29bc3a0329062058fbddd17c",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "100-zh-Hans-activity-library.png",
+    "description": "zh-Hans-activity-library",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "zh-CN",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "f2b1da115420fc534ba5e35be535aef2c70fb4f809dc8a7365ecfbb10c282874",
+    "framed_sha256": "57c5fcdd01c71bd075b1d9976585b6e50855a09c819fa970581c26253805b1d2",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "101-zh-Hans-word-search.png",
+    "description": "zh-Hans-word-search",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "zh-CN",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "66fd7ac767ad73d5f36134ebaf1ca66844cad5e8e65b1238a98a46a28534cf33",
+    "framed_sha256": "c370994095efd86b179c7aa29036d7f1af1101d6d2edce4716049525030cfed6",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "102-zh-Hans-picture-pairs.png",
+    "description": "zh-Hans-picture-pairs",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "zh-CN",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "575e6f52b473ca19cb5653b409f31b657a515cd13bf2d69d868eb501f6512c7c",
+    "framed_sha256": "df87b2d042c3a391694b651befa272db0271a92da91c8193a8ae83dc86446241",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "103-zh-Hans-coffee-circles.png",
+    "description": "zh-Hans-coffee-circles",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "zh-CN",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "878c142381fbbdfc097de85283f6e87e3d43ce22901206b574aa5454ab9cd19b",
+    "framed_sha256": "f22f7220dbedc88b6ae398a6d28b402ca4648b9fa79300cad2378bc1bcd6cfb5",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "104-zh-Hans-care-circle.png",
+    "description": "zh-Hans-care-circle",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "zh-CN",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "068252d19b9de0fc1110824a2bc5efa9dd3fcd4c87b6d9e640169c22b3145058",
+    "framed_sha256": "74df00e0d62dfaefce95a27ddb809618e38f72d017475acee17fed124da843d1",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "105-zh-Hans-visit-brief.png",
+    "description": "zh-Hans-visit-brief",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "zh-CN",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "e6c29027b490e771079d5e6dbb73c0421483f827b5d5d9ef83759102d421029e",
+    "framed_sha256": "c149f85214aa514e27a64c062eaa8578dd02d6854b3995e9286b2d6cb8b31e32",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "106-zh-Hans-support-tools.png",
+    "description": "zh-Hans-support-tools",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "zh-CN",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "363ea7a2a085b9ecf6ebe8861b23f8234903278d5bc3cf3016995914980da62e",
+    "framed_sha256": "1bb2744b6def9fc8cb109e6d2c81f959e4ea48487a64e21bc981d6815471bfe8",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "107-zh-Hans-communication-cards.png",
+    "description": "zh-Hans-communication-cards",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "zh-CN",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "1cc3ba7fdb9d2f8af63bb6d19550a8d1817a428e51d09a3f27399c9a0ca0f6f1",
+    "framed_sha256": "26aa2cbc861cd82292cf3a0a66a92a5dcc665480a37146caa76c5497f9aaf429",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "108-es-language-settings.png",
+    "description": "es-language-settings",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "es-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "09d8909cbfafbfcfbdebfdec508f5d794a620a0ac826f253517bd03346e271d9",
+    "framed_sha256": "414f9c8776e5d1b439ed043a55772b53f4ed70f7904a24f2105f6dbbddf810c3",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "109-es-overview.png",
+    "description": "es-overview",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "es-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "d81d5e474b10f1a7fa7cb78b067b682a62cb4a68582b1ab972019e54128ca0d2",
+    "framed_sha256": "df1b4543cf062c94aa43ebae359e5a18f22697e0193f0c458178060d56d1a8c8",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "110-es-activity-library.png",
+    "description": "es-activity-library",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "es-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "9fa3aef9c6e7dec985d94a7d5257dbeb6aafaf1ded761c80fcd510dc0afa6e83",
+    "framed_sha256": "28fabfd31e7a266766e288c24e80425587d9ae385018ae676147d63567adf676",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "111-es-coffee-circles.png",
+    "description": "es-coffee-circles",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "es-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "d8e31a74c84418224fb9e5567af30d37a83f407523f0b6eb0d64abfd974e4e84",
+    "framed_sha256": "808cee53b128f8e4b5c6cc4a0ee7124161030b42d36846af17258b38acc751d0",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "112-es-care-circle.png",
+    "description": "es-care-circle",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "es-US",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "df12ee4ceb5d289310a68246988b3d82e1e06761d6fdd1954518bc9eb1da5098",
+    "framed_sha256": "dba6707898b8ce0bf252344c9b2ace2eacf589bfa84db5eba51a106a67c14d6b",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "113-fil-language-settings.png",
+    "description": "fil-language-settings",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "fil-PH",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "08b69d88594cc4d734c63319ab59598399d1a44029161c9074fe635dff3498c3",
+    "framed_sha256": "b295fb97facbafc1314be2b8d3c23a31ba350a86b7794d91527d8dd343b5ef73",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "114-fil-overview.png",
+    "description": "fil-overview",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "fil-PH",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "ae74e9ab02302008f43eaf808fe3dc6a69fdda7220923ded8c50893f6bad1995",
+    "framed_sha256": "daf50636e7e398d446072c025360afd7e4aa16644175f2a427c8e7f0ea8a5d99",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "115-fil-activity-library.png",
+    "description": "fil-activity-library",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "fil-PH",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "903b0e92d23ddbd49473ea5472ae22a3aa04b53b15d888631cd944ac0487dd0c",
+    "framed_sha256": "22abda25e958adb22c443879008c9143f606ff4482c8c5023a0c7d6651f24b96",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "116-fil-coffee-circles.png",
+    "description": "fil-coffee-circles",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "fil-PH",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "bb4b3e68ea05a6f87ac35afb8e640bd17625fbb160122016457002f7c1886156",
+    "framed_sha256": "1c1b42d94858829c8d888ee642ce39e62ce3bfc0b2feeb29aa18dff58852f036",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "117-fil-care-circle.png",
+    "description": "fil-care-circle",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "fil-PH",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "a6496f64a4bceb8b9b713c7d95fe82e3600047e44859f2cd274166d34a6728b1",
+    "framed_sha256": "d958904aaf6cdf9cbcd5def8fae1b84a48928debd4e35710ddf00315574de2d2",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "118-vi-language-settings.png",
+    "description": "vi-language-settings",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "vi-VN",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "0dcf78b86d9e41501416491b1f70cad2c02de8c2790002df61525f1d94fb9845",
+    "framed_sha256": "d24206909e9c65e960ae62b78a905c9c178ca4160576170703f04a1eaf9897f1",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "119-vi-overview.png",
+    "description": "vi-overview",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "vi-VN",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "64e32e465035d5b40072a3fa994181e66b8dcb39385f30ec9c20aea41602409d",
+    "framed_sha256": "b377fc5795ed8a01e45a5179f75b067c85372c0cd9cd29c0faef29edae8bb524",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "120-vi-activity-library.png",
+    "description": "vi-activity-library",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "vi-VN",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "960b471747ea07bbe21c5ee44092aabd37b7fee98d387d59e23f24f2f1516240",
+    "framed_sha256": "dea9024a44976f10d918c4dd41797c4ad00b52d1253e6381a267e674bf948387",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "121-vi-coffee-circles.png",
+    "description": "vi-coffee-circles",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "vi-VN",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "4b51d4291dbec1f2811374720f78d9c1da91e7c33ffe5c32d3c7787a6655d221",
+    "framed_sha256": "079e172d2e000ce5d5543ed4c1eeb2a4f9d32e44936ef140fc974bfc104c36cb",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  },
+  {
+    "file": "122-vi-care-circle.png",
+    "description": "vi-care-circle",
+    "source": "a3d9e4489c935b67e4a6c55c133b02a2e639d6df",
+    "equivalentLatestUI": "0af7c22518a7fa7d8caa3f795c9d0b022f7373a8",
+    "language": "vi-VN",
+    "pageTitle": "CareSphere — Your day, at your pace",
+    "raw_sha256": "7480fb7c7a34cb52eda8f431f8d2d2c91a0d501dcdc9e4b4a37795fc0f95e228",
+    "framed_sha256": "8eaac08b66f8d23086584afa52e1387cb927dde2e1da912dcd1e87037cf88628",
+    "viewport": [
+      390,
+      844
+    ],
+    "capture_scale": 3,
+    "frame": "Original make_assets.phone_frame: midnight navy/blue, soft shadow",
+    "output_size": [
+      1018,
+      2000
+    ]
+  }
+]
